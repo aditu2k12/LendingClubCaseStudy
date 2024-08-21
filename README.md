@@ -45,72 +45,81 @@ c) Annual Income
 	
 
 d) Debt to Annual Income Ratio
-	1) With increasing debt to annual income ratio the probability of defaults also increases
-	2) when this ratio is greater than 10, the default rate is always greater than the overall dataset default rate of 14.5%
+   1) With increasing debt to annual income ratio the probability of defaults also increases
+   2) when this ratio is greater than 10, the default rate is always greater than the overall
+      dataset default rate of 14.5%
 	
 e) Revolving line utilization rate
-	1) With increasing revolving line utilization rate the probability of defaults also increases
-	2 when this rate is greater than 40, the default rate is always greater than the overall dataset default rate of 14.5%
+   1) With increasing revolving line utilization rate the probability of defaults also increases
+   2) when this rate is greater than 40, the default rate is always greater than the overall
+      dataset default rate of 14.5%
 	
 f) term
-   
-	1) The probability of default is more high for a loan given for 60 months than for 36 months
-	2) For 36 months the default rate is 11% and for 60 months its 25%
+   1) The probability of default is more high for a loan given for 60 months than for 36 months
+   2) For 36 months the default rate is 11% and for 60 months its 25%
 	
 g) grade
-   
-    1) The probability of default increases as we move in alphabetical order of grades; i.e the probability of default is more in G grade (~34%),
- 	less in F(~33%), more less in E(~27%) and same pattern follows till A(~6%).
-	2) Their is a order associated with grade
-	3) From grade C onward till G, the default rate is always greater than the overall dataset default rate of 14.5%
+   1) The probability of default increases as we move in alphabetical order of grades; i.e the probability of
+      default is more in G grade (~34%),less in F(~33%), more less in E(~27%) and same pattern follows till A(~6%).
+   2) Their is a order associated with grade
+   3) From grade C onward till G, the default rate is always greater than the overall dataset default rate of 14.5%
 	
 h) sub-grade
-
-    1) Sub Grade column follows the same pattern as that of grade with loan status column leaving a few exceptions; i.e the A sub grades 
-	default rate is lower than of B, B sub grades have a default rate less than of C and same pattern follows till G sub grades
-    2) Within each grade the the default rate increases with alphabetical order,eg; within A grade the default rate of A1 is less than of A2,
-	A2 is less than of A3, A3 is less than of A4 and A4 is less than of A5.
+   1) Sub Grade column follows the same pattern as that of grade with loan status column leaving a few exceptions;
+      i.e the A sub grades default rate is lower than of B, B sub grades have a default rate less than of C
+      and same pattern follows till G sub grades
+   2) Within each grade the the default rate increases with alphabetical order,eg; within A grade the default rate
+      of A1 is less than of A2, A2 is less than of A3, A3 is less than of A4 and A4 is less than of A5.
     3) The default rate of F5 is highest(~48%) and that of A1 is lowest(~2.6%) among all sub-grades
-	4) From all sub-grade C onward till all sub-grade of G, the default rate is always greater than the overall dataset default rate of 14.5%
+    4) From all sub-grade C onward till all sub-grade of G, the default rate is always greater than the
+       overall dataset default rate of 14.5%
 	
 i) purpose
-
     1) The probability of default is highest for small_business(~27%),followed by renewable_energy(~18.6%)
-	2) When the loan is taken for debt_consolidation, educational, medical, moving, other, renewable_energy, small_business then
-	   the default rate is always greater than the overall dataset default rate of 14.5%
+    2) When the loan is taken for debt_consolidation, educational, medical, moving, other, renewable_energy, 
+       small_business then the default rate is always greater than the overall dataset default rate of 14.5%
 	  
-j)  derogatory public records
-
-	1) Customers with known derogatory public records more prone for default with rate greater than the overall dataset default rate of 14.5% 
+j) derogatory public records: Customers with known derogatory public records more prone for default with 
+   rate greater than the overall dataset default rate of 14.5% 
 	
-k)  known public bankruptcies
-
-    1) Customers with known public bankruptcies more prone for default with rate greater than the overall dataset default rate of 14.5% 
+k) known public bankruptcies: Customers with known public bankruptcies more prone for default with rate
+   greater than the overall dataset default rate of 14.5% 
 	
-l) Customers taking any loan amount but with interest rate greater than 15% are much more prone to default with default rate greater than 14.5% 
+l) Customers taking any loan amount but with interest rate greater than 15% are much more prone to 
+   default with default rate greater than 14.5% 
 
-m) Customers taking loan amount greater than 10.5K and annual income less than 64k have more prone for default with default rate greater than 14.5%
+m) Customers taking loan amount greater than 10.5K and annual income less than 64k have more prone for 
+   default with default rate greater than 14.5%
 
-n) Customers taking loan amount greater than 15.5K and dti greater than 10 have more prone for default with default rate greater than 14.5%
+n) Customers taking loan amount greater than 15.5K and dti greater than 10 have more prone for default
+   with default rate greater than 14.5%
 
-o) Customers having loan amount greater than 10.5K and revolving rate greater than 70 have more prone for default with default rate greater than 14.5%
+o) Customers having loan amount greater than 10.5K and revolving rate greater than 70 have more prone 
+   for default with default rate greater than 14.5%
 
-p) Customers having annual income less than 94k and interest rate greater than 15 have more prone for default with default rate greater than 14.5%
+p) Customers having annual income less than 94k and interest rate greater than 15 have more prone for
+   default with default rate greater than 14.5%
 
-q) Customers taking any loan amount but for term of 60 months are more prone for default than customers taking the same amount for 30 months
-with default rate greater than 14.5%
+q) Customers taking any loan amount but for term of 60 months are more prone for default than customers 
+   taking the same amount for 30 months with default rate greater than 14.5%
 
-r) Customers taking any loan amount but beloning to grade C, D, E or F are more prone for default with default rate greater than 14.5%
+r) Customers taking any loan amount but beloning to grade C, D, E or F are more prone for 
+   default with default rate greater than 14.5%
 
-s) Customers taking any loan amount but having a public record of bankruptcy are more prone for default with default rate greater than 14.5%
+s) Customers taking any loan amount but having a public record of bankruptcy are more prone 
+   for default with default rate greater than 14.5%
 
-t) Customers having any annual income but taking loan for a term of 60 months are more prone for default with default rate greater than 14.5%
+t) Customers having any annual income but taking loan for a term of 60 months are more prone
+   for default with default rate greater than 14.5%
 
-u) Customers having annual income less than 79k and belonging to grade C, D, E or F are more prone for default with default rate greater than 14.5%
+u) Customers having annual income less than 79k and belonging to grade C, D, E or F are more prone
+   for default with default rate greater than 14.5%
+   
+v) Customers having any annual income and taking loan for small business purpose are most prone for 
+   default with default rate greater than 14.5%
 
-v) Customers having any annual income and taking loan for small business purpose are most prone for default with default rate greater than 14.5%
-
-x) Customers having annual income less than 64k and taking loan for debt consolidation, housing or other purposes are most prone for default with default rate greater than 14.5%
+w) Customers having annual income less than 64k and taking loan for debt consolidation, housing or other purposes
+   are most prone for default with default rate greater than 14.5%
 
 
 
