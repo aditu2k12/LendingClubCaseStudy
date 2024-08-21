@@ -29,16 +29,19 @@ If one is able to identify these risky loan applicants, then such loans can be r
 Based on the EDA, we have identified the following features as most important in detecting default loans
 
 a) loan amount
-	1) With increasing loan amount the probability of defaults also increases.
-	2) when the loan amount is greater than 13k, the default rate is always greater than the overall dataset default rate of 14.5%
+   1) With increasing loan amount the probability of defaults also increases.
+   2) when the loan amount is greater than 13k, the default rate is always greater than the overall
+      dataset default rate of 14.5%
 	
 b) Interest Rate
-	1) With increasing interest rate the probability of defaults also increases
-	2) when the interest rate is greater than 12.5%, the default rate is always greater than the overall dataset default rate of 14.5%
+   1) With increasing interest rate the probability of defaults also increases
+   2) when the interest rate is greater than 12.5%, the default rate is always greater than the overall
+      dataset default rate of 14.5%
 	
 c) Annual Income
-	1) With increasing annual income the probability of defaults decreases
-	2) when the annual income is less than 64k, the default rate is always greater than the overall dataset default rate of 14.5%
+   1) With increasing annual income the probability of defaults decreases
+   2) when the annual income is less than 64k, the default rate is always greater than the overall
+      dataset default rate of 14.5%
 	
 
 d) Debt to Annual Income Ratio
